@@ -3,6 +3,9 @@ INSERT INTO tb_sellers(name) VALUES ('Anakin');
 INSERT INTO tb_sellers(name) VALUES ('BarryAllen');
 INSERT INTO tb_sellers(name) VALUES ('Kal-El');
 INSERT INTO tb_sellers(name) VALUES ('Padme');
+INSERT INTO tb_sellers(name) VALUES ('Geovane');
+INSERT INTO tb_sellers(name) VALUES ('Kako');
+INSERT INTO tb_sellers(name) VALUES ('Chewie');
 
 INSERT INTO tb_sales(seller_id,visited,deals,amount,date) VALUES (5,83,66,5501.0,'2021-04-01');
 INSERT INTO tb_sales(seller_id,visited,deals,amount,date) VALUES (5,113,78,8290.0,'2021-03-31');
@@ -174,3 +177,9 @@ INSERT INTO tb_sales(seller_id,visited,deals,amount,date) VALUES (3,53,35,16423.
 INSERT INTO tb_sales(seller_id,visited,deals,amount,date) VALUES (1,14,8,7705.0,'2019-10-16');
 INSERT INTO tb_sales(seller_id,visited,deals,amount,date) VALUES (2,71,18,6436.0,'2019-10-07');
 INSERT INTO tb_sales(seller_id,visited,deals,amount,date) VALUES (3,78,60,6723.0,'2019-10-07');
+INSERT INTO tb_sales(seller_id,visited,deals,amount,date) VALUES (6,45,10,18000.0,'2021-05-07');
+INSERT INTO tb_sales(seller_id,visited,deals,amount,date) VALUES (6,35,32,18000.0,'2021-05-08');
+INSERT INTO tb_sales(seller_id,visited,deals,amount,date) VALUES (7,145,110,118000.0,'2021-05-07');
+INSERT INTO tb_sales(seller_id,visited,deals,amount,date) VALUES (7,135,132,181000.0,'2021-05-08');
+INSERT INTO tb_sales(seller_id,visited,deals,amount,date) VALUES (8,98,60,138000.0,'2021-05-07');
+INSERT INTO tb_sales(seller_id,visited,deals,amount,date) VALUES (8,74,82,281000.0,'2021-05-08');
